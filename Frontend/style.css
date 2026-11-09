@@ -1,0 +1,7 @@
+:root{
+    --backgnd: #092208;
+
+}
+body{
+    background-color: var(--backgnd);
+}
