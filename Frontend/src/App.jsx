@@ -1,12 +1,19 @@
 import './App.css';
 
-const App = () => {
-  return (
-    <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
-    </div>
-  );
-};
-
-export default App;
+export function HamButton(){
+  return <button><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+<path d="M 2 5 L 2 7 L 22 7 L 22 5 L 2 5 z M 2 11 L 2 13 L 22 13 L 22 11 L 2 11 z M 2 17 L 2 19 L 22 19 L 22 17 L 2 17 z"></path>
+</svg>
+</button>
+}
+export function Header(){
+  return(
+    <header>
+      <HamButton />
+    </header>);
+}
+export default function Main(){
+  return(
+    <Header />
+  )
+}
