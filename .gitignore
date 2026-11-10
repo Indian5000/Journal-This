@@ -1,0 +1,14 @@
+**/node_modules/
+
+**/dist/
+.rspack-profile-*/
+
+# Logs and system environment settings
+*.log
+*.local
+.DS_Store
+
+# IDE and Editor Workspace Settings
+.vscode/*
+!.vscode/extensions.json
+.idea/
